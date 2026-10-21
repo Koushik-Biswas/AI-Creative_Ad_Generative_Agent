@@ -1,0 +1,8 @@
+fastapi==0.115.6
+uvicorn[standard]==0.34.0
+httpx==0.28.1
+beautifulsoup4==4.12.3
+google-generativeai==0.8.3
+pillow==11.1.0
+streamlit==1.41.1
+requests==2.32.3
