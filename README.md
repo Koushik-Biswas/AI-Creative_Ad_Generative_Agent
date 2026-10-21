@@ -370,4 +370,4 @@ Invoke-WebRequest http://localhost:8501/_stcore/health
 
 ## License
 
-Add the project’s chosen license before public distribution.
+This project is licensed under the [MIT License](LICENSE).
