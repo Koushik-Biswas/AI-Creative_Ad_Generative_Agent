@@ -1,0 +1,12 @@
+python/
+docs/
+deploy/
+scripts/
+.github/
+.venv/
+data/
+*.zip
+.env*
+Dockerfile
+docker-compose.yml
+render.yaml

@@ -1,0 +1,25 @@
+services:
+  - type: web
+    name: signal-studio
+    runtime: docker
+    plan: starter
+    dockerfilePath: ./Dockerfile
+    dockerContext: .
+    healthCheckPath: /api/health
+    envVars:
+      - key: GROQ_API_KEY
+        sync: false
+      - key: GROQ_MODEL
+        value: openai/gpt-oss-120b
+      - key: WORKSPACE_PASSWORD
+        sync: false
+      - key: SESSION_SECRET
+        generateValue: true
+      - key: PYTHON_SERVICE_TOKEN
+        generateValue: true
+      - key: DATA_DIR
+        value: /data
+    disk:
+      name: signal-data
+      mountPath: /data
+      sizeGB: 1

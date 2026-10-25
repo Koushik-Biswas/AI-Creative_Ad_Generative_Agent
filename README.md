@@ -1,3 +1,17 @@
+# Signal Studio — B2B Creative Intelligence
+
+The new full-stack application is in **[signal-studio/](signal-studio/)**. Open that folder in VS Code.
+
+- [Start here](signal-studio/START_HERE.md)
+- [Render and Vercel deployment](signal-studio/DEPLOYMENT.md)
+- [Original requirements](signal-studio/docs/PROJECT_REQUIREMENTS.md)
+- [Implemented features and remaining gaps](signal-studio/docs/IMPLEMENTATION.md)
+- [Validation results](signal-studio/BUILD_VERIFICATION.md)
+
+The application includes Next.js, a Python/FastAPI backend, Groq integration, persistent projects, creative editing and export, a workspace login, Docker and hosting configuration. Runtime secrets are excluded. The existing Streamlit implementation is preserved below.
+
+---
+
 # AI B2B Ad Creative Generator
 
 Production-oriented AI platform for transforming a public business website into a complete B2B advertising creative:
